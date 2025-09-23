@@ -92,18 +92,16 @@
 		</dependency>
 	</dependencies>
 
-	<build>
-             <finalName>foodrecipie</finalName>
-             <plugins>
-                 <plugin>
-                     <groupId>org.springframework.boot</groupId>
-                     <artifactId>spring-boot-maven-plugin</artifactId>
-                     <configuration>
-                         <layout>WAR</layout>
-                     </configuration>
-                 </plugin>
-             </plugins>
-         </build>
+	 <build>
+   		 <plugins>
+     		 <!-- Maven Plugin for WAR packaging -->
+     	 	<plugin>
+     	 	  <groupId>org.springframework.boot</groupId>
+      	 	 <artifactId>spring-boot-maven-plugin</artifactId>
+     	   </plugin>
+         </plugins>
+   </build>
+	
 
 
 
