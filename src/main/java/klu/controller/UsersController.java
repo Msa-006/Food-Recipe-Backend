@@ -21,7 +21,7 @@ public class UsersController {
 	@Autowired
 	UsersManager UM;
 	
-	 @GetMapping("/")
+	 @GetMapping
 	    public String home() {
 	        return "✅ Food Recipe Backend is running!";
 	    }
