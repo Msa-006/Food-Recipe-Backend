@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import klu.model.Users;
 import klu.model.UsersManager;
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/api/users")
 @CrossOrigin(origins = "*")
 public class UsersController {
 	@Autowired
